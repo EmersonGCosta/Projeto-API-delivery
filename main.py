@@ -6,7 +6,7 @@ import os
 #from env import ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
 
 #load_dotenv()
-
+# para rodar o servidor digitar uvicorn main:app --reload
 SECRET_KEY = os.getenv("SECRET_KEY")
 
 # Variaveis para criação do token JWT 

@@ -8,7 +8,7 @@ from typing import List
 # rota de teste
 order_router = APIRouter(prefix= "/pedidos", tags= ['pedidos'])
 
-#TODO rora definitiva, depende da correção da função verificar_tokemn
+#TODO rota definitiva, depende da correção da função verificar_tokemn
 # order_router = APIRouter(prefix="/pedidos", tags=["pedidos"], dependencies=[Depends(verificar_token)])
 
 @order_router.get('/')
